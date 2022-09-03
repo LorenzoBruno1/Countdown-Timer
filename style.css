@@ -1,0 +1,92 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("img/nightparis.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height:100vh;
+}
+
+.title{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    text-decoration:overline;
+    text-decoration:underline;
+}
+
+.city{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top:3%;
+    letter-spacing: 1px;
+    font-size: xxx-large;
+    color: white;
+}
+
+.description{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+}
+
+.tempCelcius-c{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top:1%;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.temperature-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-top: 10px;
+    flex-wrap:wrap;
+    font-size:x-large;
+}
+
+.tempMax-c{
+    padding:10px;
+    display: flex;
+    text-align: center;
+    color:rgb(171, 45, 0) ;
+}
+
+.tempMin-c{
+    padding:10px;
+    display: flex;
+    text-align: center;
+    color: skyblue;
+}
+
+.countdown-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%; 
+    text-align: center;
+    font-weight: bold;
+    font-size: xxx-large;
+    color:white;
+    
+}
